@@ -1,0 +1,14 @@
+@url = 'http://localhost:4004'
+
+### Add lecture 
+{{{url}}}/service/lectureSchedule/Lectures
+Content-Type: 'application/json'
+
+{
+    "starttime": "2023-03-04T00:34:03Z",
+    "endtime":  "2023-03-04T00:34:03Z",
+    "course_ID": "",
+    "prof_ID": "",
+    "room_ID": "",
+    "allday": false
+}

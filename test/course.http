@@ -1,0 +1,17 @@
+@url = http://localhost:4004
+
+### Add new course 
+
+POST {{url}}/service/lectureSchedule/Courses
+Content-Type: application/json
+
+{
+    "ID": 101,
+    "name": "Cloud application programming",
+    "descr": "A Cloud application programming model to build full stack applications",
+    "ects": 1
+}
+
+### Get Course
+
+GET {{url}}/service/lectureSchedule/Courses
